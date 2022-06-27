@@ -1,14 +1,14 @@
 # Site settings
-title:          Petar Gyurov
+title:          Simone Dutto
 description:    "My blog"
-url:            https://petargyurov.github.io
+url:            https://SimoneDutto.github.io
 collections:
   projects:
   books:
 
 # Author
 author:
-  name:         Petar Gyurov
+  name:         Simone Dutto
 
 # Build settings
 markdown:       kramdown

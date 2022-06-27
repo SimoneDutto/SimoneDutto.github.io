@@ -1,6 +1,6 @@
 <!-- ---
 layout: projects
 title: 'My Projects'
-author: 'Petar'
+author: 'Simone'
 permalink: /projects/
 --- -->

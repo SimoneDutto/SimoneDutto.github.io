@@ -10,7 +10,7 @@ Built with Jekyll. Hosted using Github Pages, pointing to a custom domain.
 
 ## Where?
 
-Find it here: [petargyurov.com](www.petargyurov.com)
+Forked the repo from [petargyurov](https://github.com/petargyurov/petargyurov.github.io)
 
 ## Do You Use Nasty Trackers?
 

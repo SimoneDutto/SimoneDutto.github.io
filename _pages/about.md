@@ -54,7 +54,7 @@ I helped The Big Wild prototype an object detector and landmark detector for pol
 
 **ML Software Developer Volunteer** <cite>&mdash; Python, Tensorflow, ElectronJS, Svelte</cite>
 
-Developed [Megadetector GUI](https://github.com/petargyurov/megadetector-gui), an open source, AI-assisted solution for labeling and sorting camera trap images. The desktop application is an integral part of the data processing pipeline for conservation scientists working to save endangered species. Built using ElectronJS, Svelte, Python, Tensorflow.
+Developed [Megadetector GUI](https://github.com/SimoneDutto/megadetector-gui), an open source, AI-assisted solution for labeling and sorting camera trap images. The desktop application is an integral part of the data processing pipeline for conservation scientists working to save endangered species. Built using ElectronJS, Svelte, Python, Tensorflow.
 
 <div class="catalogue-divider"></div>
 <br>
