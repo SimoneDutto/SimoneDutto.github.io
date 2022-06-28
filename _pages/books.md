@@ -7,7 +7,7 @@ permalink: /bookshelf/
 
 # My Bookshelf
 <small>
-Starting from my last bachelor year I decided to read more consistentitely. There are a lot of things I had learn through book and I had a lot of fun. 
+Starting from my last bachelor year I decided to read more consistentitely. There are a lot of things I learn through book and I had a lot of fun. 
 </small>
 
 <small>
