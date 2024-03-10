@@ -39,7 +39,7 @@ Incredible features:
 No.
 
 ### What if someone decides to DoS your application?
-Well, the attack will work. See the article of the frontend guy who "friendly fired" my backend. [Article](https://medium.com/@ifrimvale/binary-duel-front-end-in-2-weeks-with-svelte-and-dasyui-48230a633eb4)
+Well, the attack will work. See the [article](https://medium.com/@ifrimvale/binary-duel-front-end-in-2-weeks-with-svelte-and-dasyui-48230a633eb4) of the frontend guy who "friendly fired" my backend. 
 
 ## Numbers for engineers
 The backend is a Golang [Fiber](https://docs.gofiber.io/) backend.
