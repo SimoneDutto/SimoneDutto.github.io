@@ -42,7 +42,7 @@ No.
 Well, the attack will work. See the article of the frontend guy who "friendly fired" my backend. [Article](https://medium.com/@ifrimvale/binary-duel-front-end-in-2-weeks-with-svelte-and-dasyui-48230a633eb4)
 
 ## Numbers for engineers
-The backend is a Golang (Fiber)[https://docs.gofiber.io/] backend.
+The backend is a Golang [Fiber](https://docs.gofiber.io/) backend.
 
 The game state machine is map with a mutex to ensure memory safety. 
 ```golang
@@ -54,11 +54,11 @@ var mux *sync.RWMutex
 
 The queue for the matchmaking is handled similarly.
 
-The functioning is better explained in this (article)[https://medium.com/@ifrimvale/binary-duel-front-end-in-2-weeks-with-svelte-and-dasyui-48230a633eb4], but the main idea is that:
+The functioning is better explained in this [article](https://medium.com/@ifrimvale/binary-duel-front-end-in-2-weeks-with-svelte-and-dasyui-48230a633eb4), but the main idea is that:
 - there are some actions to progress the state machine (`/submit-answer`, `/join-game`)
 - there is periodic request to check the state of the game machine (`/game-status`)
 
-I have load tested my application with a prod-like load using (Artillery)[https://www.artillery.io/].
+I have load tested my application with a prod-like load using [Artillery](https://www.artillery.io/).
 
 The backend can handle approximately 100 concurrent games with a median response time of 30ms in a free tier (thanks Google) App Engine.
 Since each game is expected to last 1-3 minutes. It means that scalability would become an issue if and when Binary Duel is used by more than a few thousands of people an hour.  
