@@ -18,7 +18,7 @@ I was right, what an engineer!
 
 # The Bad
 
-After this initial boom, a few people decided to revisit the game (approx 10 a day).
+After this initial boom, only a few people decided to revisit the game (approx 10 a day).
 
 # The solution
 
@@ -65,6 +65,6 @@ _Will all of this manage to increase retention?_
   
 Do you have any ideas or comments to improve [Binary Duel](https://binary-duel.com)? 
 
-Leave them under this HK post or email me via _simonedutto8_at_gmail.com_
+Leave them under this HK post or email me via _simonedutto8+binaryduel_at_gmail.com_
 
 Stay tuned!
