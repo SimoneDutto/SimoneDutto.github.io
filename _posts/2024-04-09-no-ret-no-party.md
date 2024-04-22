@@ -28,7 +28,9 @@ And again, Golang comes with a special treat:
 
 _You don't actually need any dependency to do what you want, you can just code it._
 
-### We needed a way to store the leaderboard since it is quite expensive to build.
+### We needed a way to cache the leaderboard since it is quite expensive to build.
+Building a leaderboard is expensive and difficult to maintain it updated.  
+So once we get it, we need to cache it.
 So, here is how you can implement a simple route cache (in memory) with TTL:
 
 ```golang
