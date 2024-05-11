@@ -82,7 +82,7 @@ _Latency_
 
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">2.5%</th>
@@ -112,7 +112,7 @@ _Req/s_
 
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">1%</th>
@@ -154,7 +154,7 @@ _Req/s_
 _Latency_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">2.5%</th>
@@ -183,7 +183,7 @@ _Latency_
 _Req/s_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">1%</th>
@@ -224,7 +224,7 @@ _Req/s_
 _Latency_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">2.5%</th>
@@ -253,7 +253,7 @@ _Latency_
 _Req/s_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">1%</th>
@@ -294,7 +294,7 @@ _Req/s_
 _Latency_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">2.5%</th>
@@ -323,7 +323,7 @@ _Latency_
 _Req/s_
 
 <table style="border: 1px solid black">
-  <thead>
+  <thead style="border-bottom: 1px solid black">
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
       <th style="border-right: 1px solid black">1%</th>
