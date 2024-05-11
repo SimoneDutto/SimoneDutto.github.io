@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "How can logging impact a Golang webserver?"
+title: "How can logging impact a Golang backend?"
 author: "Simone Dutto"
 ---
 
-This article is the answer to a small question I have always asked myself developing a webserver.
+This article is the answer to a small question I have always asked myself developing a backend.
 How much logging impact the performance? Is there a good reason why we keep the logging level to ERROR in production?
 
 _Short Answer: very much YES._
@@ -19,7 +19,7 @@ I decided to add a simple route with two configurable parameters:
 - number of logs
 - number of characters in each log
 
-In my webserver I have used https://github.com/sirupsen/logrus as the logging library.
+In my backend I have used https://github.com/sirupsen/logrus as the logging library.
 
 ```go
 func Logging(c *gin.Context) {
@@ -72,7 +72,7 @@ autocannon.track(instance, { renderProgressBar: true })
 ```
 
 ## Hardware Setup
-The WebServer is deployed into a Raspberry 2 Model B in my local network, and the load test is run using my PC.
+The backend is deployed into a Raspberry 2 Model B in my local network, and the load test is run using my PC.
 
 # Results
 
