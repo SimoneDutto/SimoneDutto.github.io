@@ -81,70 +81,283 @@ The WebServer is deployed into a Raspberry 2 Model B in my local network, and th
 _Latency_
 
 
-| Stat    | 2.5% | 50%  | 97.5% | 99%  | Avg      | Stdev  | Max   |
-|---------|------|------|-------|------|----------|--------|-------|
-| Latency | 6 ms | 13 ms| 29 ms | 35 ms| 14.49 ms | 9.12 ms| 188 ms|
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">99%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Latency</td>
+      <td style="border-right: 1px solid black">6 ms</td>
+      <td style="border-right: 1px solid black">13 ms</td>
+      <td style="border-right: 1px solid black">29 ms</td>
+      <td style="border-right: 1px solid black">35 ms</td>
+      <td style="border-right: 1px solid black">14.49 ms</td>
+      <td style="border-right: 1px solid black">9.12 ms</td>
+      <td>188 ms</td>
+    </tr>
+  </tbody>
+</table>
 
 _Req/s_
 
 
-| Stat     | 1%   | 2.5% | 50%   | 97.5% | Avg    | Stdev  | Min   |
-|----------|------|------|-------|-------|--------|--------|-------|
-| Req/Sec  | 586  | 586  | 662   | 723   | 666.6  | 44.01  | 586   |
-| Bytes/Sec| 44 kB| 44 kB| 49.7 kB| 54.2 kB| 50 kB  | 3.3 kB | 44 kB |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">1%</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Req/Sec</td>
+      <td style="border-right: 1px solid black">586</td>
+      <td style="border-right: 1px solid black">586</td>
+      <td style="border-right: 1px solid black">662</td>
+      <td style="border-right: 1px solid black">723</td>
+      <td style="border-right: 1px solid black">666.6</td>
+      <td style="border-right: 1px solid black">44.01</td>
+      <td>586</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid black">Bytes/Sec</td>
+      <td style="border-right: 1px solid black">44 kB</td>
+      <td style="border-right: 1px solid black">44 kB</td>
+      <td style="border-right: 1px solid black">49.7 kB</td>
+      <td style="border-right: 1px solid black">54.2 kB</td>
+      <td style="border-right: 1px solid black">50 kB</td>
+      <td style="border-right: 1px solid black">3.3 kB</td>
+      <td>44 kB</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # 5 Logs of 20 characters per Request
 
 _Latency_
 
-
-| Stat    | 2.5% | 50%   | 97.5% | 99%   | Avg      | Stdev    | Max    |
-|---------|------|-------|-------|-------|----------|----------|--------|
-| Latency | 8 ms | 24 ms | 47 ms | 59 ms | 25.01 ms | 11.13 ms | 107 ms |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">99%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Latency</td>
+      <td style="border-right: 1px solid black">8 ms</td>
+      <td style="border-right: 1px solid black">24 ms</td>
+      <td style="border-right: 1px solid black">47 ms</td>
+      <td style="border-right: 1px solid black">59 ms</td>
+      <td style="border-right: 1px solid black">25.01 ms</td>
+      <td style="border-right: 1px solid black">11.13 ms</td>
+      <td>107 ms</td>
+    </tr>
+  </tbody>
+</table>
 
 _Req/s_
 
-
-| Stat      | 1%      | 2.5%     | 50%     | 97.5%   | Avg     | Stdev   | Min     |
-|-----------|---------|----------|---------|---------|---------|---------|---------|
-| Req/Sec   | 334     | 334      | 392     | 435     | 391.7   | 30.84   | 334     |
-| Bytes/Sec | 25.1 kB | 25.1 kB  | 29.4 kB | 32.6 kB | 29.4 kB | 2.31 kB | 25.1 kB |
-
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">1%</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Req/Sec</td>
+      <td style="border-right: 1px solid black">334</td>
+      <td style="border-right: 1px solid black">334</td>
+      <td style="border-right: 1px solid black">392</td>
+      <td style="border-right: 1px solid black">435</td>
+      <td style="border-right: 1px solid black">391.7</td>
+      <td style="border-right: 1px solid black">30.84</td>
+      <td>334</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid black">Bytes/Sec</td>
+      <td style="border-right: 1px solid black">25.1 kB</td>
+      <td style="border-right: 1px solid black">25.1 kB</td>
+      <td style="border-right: 1px solid black">29.4 kB</td>
+      <td style="border-right: 1px solid black">32.6 kB</td>
+      <td style="border-right: 1px solid black">29.4 kB</td>
+      <td style="border-right: 1px solid black">2.31 kB</td>
+      <td>25.1 kB</td>
+    </tr>
+  </tbody>
+</table>
 
 # 5 Logs of 100 characters per Request
 
 _Latency_
 
-
-| Stat    | 2.5%  | 50%   | 97.5% | 99%   | Avg      | Stdev    | Max    |
-|---------|-------|-------|-------|-------|----------|----------|--------|
-| Latency | 10 ms | 30 ms | 59 ms | 70 ms | 31.54 ms | 13.62 ms | 142 ms |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">99%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Latency</td>
+      <td style="border-right: 1px solid black">10 ms</td>
+      <td style="border-right: 1px solid black">30 ms</td>
+      <td style="border-right: 1px solid black">59 ms</td>
+      <td style="border-right: 1px solid black">70 ms</td>
+      <td style="border-right: 1px solid black">31.54 ms</td>
+      <td style="border-right: 1px solid black">13.62 ms</td>
+      <td>142 ms</td>
+    </tr>
+  </tbody>
+</table>
 
 _Req/s_
 
-
-| Stat      | 1%      | 2.5%    | 50%     | 97.5%   | Avg     | Stdev   | Min     |
-|-----------|---------|---------|---------|---------|---------|---------|---------|
-| Req/Sec   | 251     | 251     | 304     | 351     | 311.61  | 30.41   | 251     |
-| Bytes/Sec | 18.8 kB | 18.8 kB | 22.8 kB | 26.3 kB | 23.4 kB | 2.28 kB | 18.8 kB |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">1%</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Req/Sec</td>
+      <td style="border-right: 1px solid black">251</td>
+      <td style="border-right: 1px solid black">251</td>
+      <td style="border-right: 1px solid black">304</td>
+      <td style="border-right: 1px solid black">351</td>
+      <td style="border-right: 1px solid black">311.61</td>
+      <td style="border-right: 1px solid black">30.41</td>
+      <td>251</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid black">Bytes/Sec</td>
+      <td style="border-right: 1px solid black">18.8 kB</td>
+      <td style="border-right: 1px solid black">18.8 kB</td>
+      <td style="border-right: 1px solid black">22.8 kB</td>
+      <td style="border-right: 1px solid black">26.3 kB</td>
+      <td style="border-right: 1px solid black">23.4 kB</td>
+      <td style="border-right: 1px solid black">2.28 kB</td>
+      <td>18.8 kB</td>
+    </tr>
+  </tbody>
+</table>
 
 # 20 Logs of 5 characters per Request
 
 _Latency_
 
-
-| Stat    | 2.5%  | 50%   | 97.5% | 99%   | Avg      | Stdev    | Max    |
-|---------|-------|-------|-------|-------|----------|----------|--------|
-| Latency | 20 ms | 58 ms | 130 ms| 142 ms| 62.09 ms | 26.08 ms | 182 ms |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">99%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Max</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Latency</td>
+      <td style="border-right: 1px solid black">20 ms</td>
+      <td style="border-right: 1px solid black">58 ms</td>
+      <td style="border-right: 1px solid black">130 ms</td>
+      <td style="border-right: 1px solid black">142 ms</td>
+      <td style="border-right: 1px solid black">62.09 ms</td>
+      <td style="border-right: 1px solid black">26.08 ms</td>
+      <td>182 ms</td>
+    </tr>
+  </tbody>
+</table>
 
 _Req/s_
 
-
-| Stat      | 1%      | 2.5%    | 50%     | 97.5%   | Avg     | Stdev   | Min     |
-|-----------|---------|---------|---------|---------|---------|---------|---------|
-| Req/Sec   | 111     | 111     | 166     | 202     | 159.31  | 28.4    | 111     |
-| Bytes/Sec | 8.33 kB | 8.33 kB | 12.5 kB | 15.2 kB | 11.9 kB | 2.13 kB | 8.32 kB |
+<table>
+  <thead>
+    <tr>
+      <th style="border-right: 1px solid black">Stat</th>
+      <th style="border-right: 1px solid black">1%</th>
+      <th style="border-right: 1px solid black">2.5%</th>
+      <th style="border-right: 1px solid black">50%</th>
+      <th style="border-right: 1px solid black">97.5%</th>
+      <th style="border-right: 1px solid black">Avg</th>
+      <th style="border-right: 1px solid black">Stdev</th>
+      <th>Min</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border-right: 1px solid black">Req/Sec</td>
+      <td style="border-right: 1px solid black">111</td>
+      <td style="border-right: 1px solid black">111</td>
+      <td style="border-right: 1px solid black">166</td>
+      <td style="border-right: 1px solid black">202</td>
+      <td style="border-right: 1px solid black">159.31</td>
+      <td style="border-right: 1px solid black">28.4</td>
+      <td>111</td>
+    </tr>
+    <tr>
+      <td style="border-right: 1px solid black">Bytes/Sec</td>
+      <td style="border-right: 1px solid black">8.33 kB</td>
+      <td style="border-right: 1px solid black">8.33 kB</td>
+      <td style="border-right: 1px solid black">12.5 kB</td>
+      <td style="border-right: 1px solid black">15.2 kB</td>
+      <td style="border-right: 1px solid black">11.9 kB</td>
+      <td style="border-right: 1px solid black">2.13 kB</td>
+      <td>8.32 kB</td>
+    </tr>
+  </tbody>
+</table>
 
 
 # Conclusion
