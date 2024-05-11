@@ -19,7 +19,7 @@ I decided to add a simple route with two configurable parameters:
 - number of logs
 - number of characters in each log
 
-In my backend I have used https://github.com/sirupsen/logrus as the logging library.
+In my backend I have used <https://github.com/sirupsen/logrus> as the logging library.
 
 ```go
 func Logging(c *gin.Context) {
@@ -41,7 +41,7 @@ func Logging(c *gin.Context) {
 
 ## Load Test setup
 
-I used https://www.npmjs.com/package/autocannon to load test this route with different (number of logs, size) combination, and finally extract metrics. The idea is to send as much requests as possible in 10 seconds.
+I used <https://www.npmjs.com/package/autocannon> to load test this route with different (number of logs, size) combination, and finally extract metrics. The idea is to send as many requests as possible in 10 seconds.
 
 Here is the configuration.
 ```js
