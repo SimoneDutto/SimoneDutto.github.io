@@ -81,7 +81,7 @@ The WebServer is deployed into a Raspberry 2 Model B in my local network, and th
 _Latency_
 
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -111,7 +111,7 @@ _Latency_
 _Req/s_
 
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -153,7 +153,7 @@ _Req/s_
 
 _Latency_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -182,7 +182,7 @@ _Latency_
 
 _Req/s_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -223,7 +223,7 @@ _Req/s_
 
 _Latency_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -252,7 +252,7 @@ _Latency_
 
 _Req/s_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -293,7 +293,7 @@ _Req/s_
 
 _Latency_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
@@ -322,7 +322,7 @@ _Latency_
 
 _Req/s_
 
-<table>
+<table style="border: 1px solid black">
   <thead>
     <tr>
       <th style="border-right: 1px solid black">Stat</th>
