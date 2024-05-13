@@ -13,9 +13,7 @@ _Short Answer: very much YES._
 
 
 ## Backend Setup
-Since I was already playing with my Golang backend for my hobby project [binary-duel](https://binary-duel.com/). 
-
-I decided to add a simple route with two configurable parameters:
+Since I was already playing with my Golang backend for my hobby project [binary-duel](https://binary-duel.com/), I decided to add a simple route with two configurable parameters:
 - number of logs
 - number of characters in each log
 
