@@ -361,6 +361,9 @@ _Req/s_
 
 
 # Conclusion
+
+![Requests per second](/assets/images/binary-duel/reqs_logging.png)
+
 The results are conclusive:
 - logs can impact the performance of your backend
 - log the less you can!
