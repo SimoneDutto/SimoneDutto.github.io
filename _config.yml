@@ -12,6 +12,11 @@ author:
 
 # Build settings
 markdown:       kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  parse_block_html: true  # This ensures HTML blocks are processed
 include:
   - _pages
 
